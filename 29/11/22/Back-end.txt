@@ -1,0 +1,29 @@
+
+    1.1ligar o dispositivo
+    1.2ver conecçao de rede
+    1.3e perquisar um site confiavel
+    1.4 Pesquisar sobre notebooks
+escolher um notebook para meu trabalho ou pessoal
+entrar no site da apple
+ver preço
+ver marca
+ver modelo
+pesquisar o melhor para mim
+ver parcelas
+ver data de entrega 
+ver garantia
+e efetuar o pagamento 
+cartao ou dinheiro
+
+Finalizar Compra
+
+
+
+qualquer pergunta 
+pergunta de uma pessoa A=2+2=?
+resposta da pessoa B 2+2=4=resposta final
+
+
+
+tarefa 
+fazer um programa que calcule o valor de impoosto de renda baseado num salario(aliquota imposto de renda:7,5%)
