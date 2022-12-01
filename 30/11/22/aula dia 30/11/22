@@ -66,3 +66,75 @@ elseif(salario >=1.903,99 and <=2.826,65)Then
 Writeln (",faixa3)
 
 exercicio
+
+1. Classifique os dados especificados abaixo de acordo com seu tipo, assinalando com I os
+dados do tipo inteiro, com R os reais, com L os literais, com B os lógicos (booleanos), e
+com N aqueles para os quais não é possível definir a priori um tipo de dado.
+( ) 0,21
+( ) 1
+( ) V
+( ) “0.”
+( ) 1%
+( ) "Jose"
+( ) 0,35
+( ) .F.
+( ) -0,001
+
+( ) .T.
+( ) +3257
+( ) "uma"
+( ) “+3257”
+( ) +3257.
+( ) “-0,0”
+( ) “.F.”
+( ) ± 3
+
+( ) .V.
+( ) .V
+( ) “abc”
+( ) F
+( )C
+( )Maria
+( ) +36
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
