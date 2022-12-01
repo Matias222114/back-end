@@ -1,0 +1,68 @@
+descriçao narrativa
+passos
+solitar ao usuario o valor do salario
+calcular o valor do imposto a recolher baseado na aliquota de 7,5%
+mostrar ao usuario o valor do imposto calculada
+
+pseudocodigo
+
+const aliquota=7,5%
+var salario
+var impostodevido
+readln("informe o salario",salario");
+impostodevido=salario*aliquota;
+WritableStreamDefaultController("o valor do imposto devido e:",impostodevido)
+
+
+============================================================================================================================
+
+
+Escrever um progrma que baseado no valor do salario vai informar ao usuario a aliquota do imposto de renda 
+base de calculo do imposto de RTCEncodedAudioFrame
+Base de cálculo do Imposto de Renda
+
+Até R$1.903,98	Isento
+De R$1.903,99 até R$2.826,65	7,5%	R$ 142,80
+De R$2.826,66 até R$3.751,05	15%	R$ 354,80
+De R$3.751,06 até R$4.664,68	22,5%	R$ 636,13
+acima de R$4.664,68 27,5%
+
+descriçao narrativa
+
+1 solicitar ao usuario o valor do seu salario
+
+2 se o salario for menor ou igual a 1.903.98 entao escrevo "voce esta livre do leao"(isento)
+
+3 se o salario for maior que 1.903,98
+
+e menor que 2.826,66 entao escrevo:
+"sua aliquota e de 7,5"
+
+4 se o salario for maior que R$2.826,65
+e menor que 3.751,06 entao escrevo:
+"sua aliquota e de 15%
+
+5 se o salario for maior que R$3.751,05
+e menor que 4.664,68 entao escreva "sua aliquota e de 22,5%"
+
+6 se o salario for maior que 4.664,68
+entao escreva;"Sua aliquota e de 27,5%"
+
+
+pseudocodigo
+const faixa1 = 'isento'
+const faixa2 = '7,5%'
+const faixa3 = '15%'
+const faixa1 = '22,5%'
+const faixa1 = '27,5%'
+ver salario 
+
+readln("informe o valor do seu salario",salario);
+
+if(salario<=1.903,98)TouchEvent
+writeln("voce esta livre do leao",faixa2);
+
+elseif(salario >=1.903,99 and <=2.826,65)Then 
+Writeln (",faixa3)
+
+exercicio
