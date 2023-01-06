@@ -1,0 +1,88 @@
+TABELA:FUNCIONARIOS
+
+ID     NOME      NASCIMENTO
+1      NILTON    17/07/1986
+2      FRANCISCO 11/11/1985
+3      MARIA     01/01/2000
+
+SELECT * FROM FUNCIONARIOS 
+WHERE ID= 2
+
+
+UPDATE FROM FUNCIONARIOS
+SET NOME = 'MARIA DA SILVA' 
+WHERE SET ID= 3
+
+
+DELETE FROM FUNCIONARIOS
+WHERE NOME= 'NILTON'
+
+
+SELECT * FROM FUNCIONARIOS
+WHERE ID = 2 AND ID = 3
+
+DML - DATA MANIPULATION LANGUAGE 
+MANIPULAR DADOS
+DDL - DATA DEFINITION LANGUAGE 
+DEFINIR ESTRUTURAS
+
+
+- CREATE: CRIAR,TABELA,BANCO DE DADOS
+-ALTER: Alterar, tabela,campos,banco de dados
+-DROP: APAGAR,TABELAS,BANCO DE DADOS
+======================================================
+CRIAR BANCO DE DADOS
+CREATE DATABASE MATIAS (minusculo)
+ [nome da coluna]depois[tipo de coluna]
+ ou seja+=Ex= id depois interger
+    id integer ,
+    nome character varying,
+    cpf char(11)
+    NASCIMENTO DATE 
+
+criar tabela 
+create table funcionarios(
+    id integer ,
+    nome character varying,
+    cpf char(11)
+    NASCIMENTO DATE 
+)
+
+alter table funcionarios 
+alter column nascimento set not null;
+
+alter table funcionarios 
+alter column id set not null;
+
+alter table funcionarios 
+alter column nome set not null;
+
+alter table funcionarios 
+alter column nascimento set not null;
+============================================
+apagar TABELAS 
+drop table funcionarios 
+apaga as tabelas do lado do sql
+
+
+
+creat table funcionarios 
+(
+    id interger not null,
+    nome character varying not null,
+    cpf character varying(11) not null,
+    nascimento date not null,
+    primary key(id)
+)
+============================================================
+ADICIONANDO UM CAMPO NA TABELA 
+
+
+    alter table funcionarios 
+    ADD column telefone character varying(11);
+    add adiconar coluna
+
+    alter table funcionarios 
+    drop column telefone [character] varying(11);
+    drop remover coluna
+no drop character nao precisa!!
