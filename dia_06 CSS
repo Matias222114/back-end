@@ -1,0 +1,22 @@
+background-color=altera a cor de fundo
+color=altera a cor do texto
+font-weight-altera o peso da fonte(exemplo a palavra ficaria mais gordinha ou mais magrinha)
+
+
+seletor{
+    background-color: red;
+    color:10px;
+    font-weight: bold;
+    
+}
+
+RESUMINDO HTML E PARA [montar o corpo da pagina]
+CSS e para fazer as [animaçoes da pagina, cores, imagens e etc]
+
+pesquisar 
+CSS-Propriedades
+
+bootstrap= deixa mais bonito o formulario o corpo da pagina deixando com mais agilidade o site 
+[visao geral]
+
+ESTUDAR MATIAS SEI QUE E DIFICIL MAIS TENTAR PELO MENOS 
