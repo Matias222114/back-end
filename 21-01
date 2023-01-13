@@ -1,0 +1,18 @@
+create table estudante(
+    id interger not null,
+    nome character varying (100) not null,
+    data_nascimento date not null,
+    cpf character varying(200) not null,
+    telefone character varying (11) not null,
+    primary key (id)
+
+    alter table matricula
+    add constraint estudante_id_fk
+    foreign key (estudante_id)
+    references estudantes(id)
+
+    alter table matricula 
+    add constraint diciplina_id_fk
+    foreign key (diciplina_id)
+    references disciplina(id)
+)
