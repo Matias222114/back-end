@@ -1,0 +1,50 @@
+create table biblioteca(
+    id integer not null, 
+    id serial,
+    cnpj varchar(14) NOT NULL,
+    nome-fantasia varchar(50) not null,
+    primary key (id) 
+);
+
+create table livro(
+    id serial,
+    titulo varchar(50),
+    prefacio varchar(500),
+    paginas interger,
+    biblioteca_id interger,
+    assunto_id interger,
+    constraint biblioteca_livro_fk
+        foreign key (biblioteca_id)
+            references bibliotecas(id)
+        constraint assunto_livro_fk
+        foreign key(assunto_id)
+         references assunto(id),
+     primary key(id)
+);
+
+
+create table asunto(
+    id serial,
+    descricao varchar(30) not null,
+    andar varchar(20)not null,
+    primary key(id)
+);
+
+create table autor(
+    id serial,
+    descricao varchar(50) not null,
+    andar varchar(20)not null,
+    primary key(id)
+);
+
+
+create table livro_autor(
+    id serial,
+    constraint livro_livro_autor_fk
+        foreign key(livro_id)
+            references livro(id),
+    constraint autor_livro_autor_fk
+        foreign key(autor_id)
+         references autor(id);
+    primary key(id)
+);
